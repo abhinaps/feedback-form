@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 5rem;
+}
+input{
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    padding: 1%;
+}
+textarea{
+    outline: none;
+    border: none;
+    font-size: 1.5rem;
+    width: 79.5%;
+    border-radius: 5px;
+    padding: 1%;
+}
+.main{
+    min-height: 100vh;
+    padding: 3rem;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(14,174,87,1) 0%, rgba(12,116,117,1) 90% );
+    color:rgb(219, 241, 241);
+}
+.container{
+    padding: 3rem;
+    font-size: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+}
+.container div{
+    margin: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.container section{
+    font-size: 1rem;
+    align-self: center;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.number input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.number input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.email input{
+    width: 69%;
+}
+.message{
+    justify-self: stretch;
+    grid-column: 1/-1;
+}
+.submit{
+    padding: 1rem 2rem;
+    background-color: white;
+    justify-self: center;
+    grid-column: 1/-1;
+    border-radius: 15px;
+}
+.submit button{
+    background-color: white;
+    color: rgba(12,116,117,1);
+    font-size: 2rem;
+    border: none;
+    cursor: pointer;
+    
+}
