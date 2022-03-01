@@ -65,17 +65,16 @@ textarea{
     grid-column: 1/-1;
 }
 .submit{
-    padding: 1rem 2rem;
+    padding: 0.5rem 1rem;
     background-color: white;
     justify-self: center;
     grid-column: 1/-1;
-    border-radius: 15px;
+    border-radius: 5px;
 }
 .submit button{
     background-color: white;
     color: rgba(12,116,117,1);
-    font-size: 2rem;
+    font-size: 1rem;
     border: none;
     cursor: pointer;
-    
 }
